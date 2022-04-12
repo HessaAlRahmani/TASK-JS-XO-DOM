@@ -124,7 +124,7 @@ function checkWinner(player) {
 //  check if winning cases are true
 //  call winning alert
 function restartGame() {
-  for (let i = 1; i <= 9; i++) {
+  for (let i = 1; i < 10; i++) {
     fillButton(i, "");
     document.getElementById(i).disabled = false;
   }
