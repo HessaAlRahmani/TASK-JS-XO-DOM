@@ -127,5 +127,7 @@ function restartGame() {
   for (let i = 1; i < 10; i++) {
     fillButton(i, "");
     document.getElementById(i).disabled = false;
+    document.getElementById(i).classList.remove("green");
+    document.getElementById(i).classList.remove("red");
   }
 }
